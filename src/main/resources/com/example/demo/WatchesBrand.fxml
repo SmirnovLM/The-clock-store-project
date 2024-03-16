@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.WatchesBrandController">
+   <children>
+      <Label fx:id="_WatchesBrands" alignment="TOP_LEFT" layoutX="8.0" layoutY="123.0" prefHeight="468.0" prefWidth="584.0" style="-fx-background-color: White;" text="">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="10.0" text="Clock's Shop" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="65.0" text="Watches Brands" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

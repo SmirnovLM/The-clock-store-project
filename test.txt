@@ -1,0 +1,30 @@
+{
+  "clocks": [
+    {
+      "Seconds": 0,
+      "Name": "Rolex",
+      "Cost": 10000,
+      "Hours": 0,
+      "Minutes": 0,
+      "id": -1,
+      "className": "com.example.demo.Logic.Clock_C"
+    },
+    {
+      "Name": "Rolex",
+      "Cost": 8000,
+      "Hours": 0,
+      "Minutes": 0,
+      "id": -1,
+      "className": "com.example.demo.Logic.Clock_P"
+    },
+    {
+      "Seconds": 0,
+      "Name": "Namee",
+      "Cost": 1000,
+      "Hours": 0,
+      "Minutes": 0,
+      "id": -1,
+      "className": "com.example.demo.Logic.Clock_C"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.CheapestClockControler">
+   <children>
+      <Label layoutX="205.0" layoutY="10.0" text="Clock's Shop" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="65.0" text="The Most Cheapest Clock" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="_CheapestClock" alignment="TOP_LEFT" layoutX="7.0" layoutY="128.0" prefHeight="464.0" prefWidth="586.0" style="-fx-background-color: White;" text="">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

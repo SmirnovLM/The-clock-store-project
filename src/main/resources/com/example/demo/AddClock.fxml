@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AddClockController">
+   <children>
+      <Label layoutX="205.0" layoutY="14.0" text="Clock's Shop" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="72.0" text="Add The Watches" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="_WatchBrand" layoutX="15.0" layoutY="150.0" prefHeight="40.0" prefWidth="560.0" promptText="Watch Brand">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="_CostOfWatches" layoutX="15.0" layoutY="200.0" prefHeight="40.0" prefWidth="558.0" promptText="Cost Of Watches">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="_TheValueOfTheHourHand" layoutX="15.0" layoutY="250.0" prefHeight="40.0" prefWidth="558.0" promptText="The Value Of The Hour Hand">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="_TheValueOfTheMinuteHand" layoutX="15.0" layoutY="300.0" prefHeight="40.0" prefWidth="558.0" promptText="The Value Of The Minute Hand">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="_TheValueOfTheSecondHand" layoutX="15.0" layoutY="350.0" prefHeight="40.0" prefWidth="558.0" promptText="The Value Of The Second Hand">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="AddTheWatchesButton" layoutX="16.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#AddTheWatchesClicked" prefHeight="35.0" prefWidth="558.0" style="-fx-background-color: #800080;" text="Add The Watch" textFill="#fffc00">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="_NotEmpty" layoutX="15.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#_NotEmptyClicked" prefHeight="34.0" prefWidth="246.0" text="The Clock has Seconds" textFill="#fffc00">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="_Error" layoutX="16.0" layoutY="477.0" prefHeight="30.0" prefWidth="558.0">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
